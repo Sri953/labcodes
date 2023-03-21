@@ -1,9 +1,9 @@
 ---
 title: Quality control of short-read sequences
 modified: 21st March 2023
-modified.by: Fursham
-tested.date: -
-tested.by: Fursham
+modified.by: "Fursham"
+tested.date: ""
+tested.by: "Fursham"
 ---
 
 Contents
