@@ -1,3 +1,5 @@
+# Quality control of short-read sequences
+
 ---
 title: Quality control of short-read sequences
 ---
