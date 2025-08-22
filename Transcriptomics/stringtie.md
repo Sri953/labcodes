@@ -12,7 +12,7 @@ echo -e "/outputs/Stringtie_gtf:\tDirectory containing Custom GTF for each sampl
 for file in Hisat2_sorted_BAMs/*.bam; do
 	newfile=${file##*/}
     newfile=${newfile%.bam}
-	stringtie $newfile -p 35 -o Stringtie_gtf/$newfile.gtf -G /path/to/referenceGTF
+	stringtie $file -p 35 -o Stringtie_gtf/$newfile.gtf -G /path/to/referenceGTF
 done
 
 ```
